@@ -104,10 +104,6 @@ def decode_jwt():
                 'nbf': data['nbf']}
     return jsonify(**response)
 
-# neongwenya.career@gmail.com abc123
-# eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NjM1ODU2OTgsIm5iZiI6MTY2MjM3NjA5OCwiZW1haWwiOiJuZW9uZ3dlbnlhLmNhcmVlckBnbWFpbC5jb20ifQ.Wmhdl44BGd6gP7HIjavxnkNdstz0F9Zs7DTTigzLCSo
-# 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
-
 
 def _get_jwt(user_data):
     exp_time = datetime.datetime.utcnow() + datetime.timedelta(weeks=2)
