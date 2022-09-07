@@ -38,7 +38,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: NenoN
+    Default: Neno-N
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
