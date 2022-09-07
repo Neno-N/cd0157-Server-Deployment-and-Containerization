@@ -15,6 +15,8 @@ from flask import Flask, jsonify, request, abort
 JWT_SECRET = os.environ.get('JWT_SECRET', 'abc123abc1234')
 LOG_LEVEL = os.environ.get('LOG_LEVEL', 'INFO')
 
+# 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
+
 
 def _logger():
     '''
